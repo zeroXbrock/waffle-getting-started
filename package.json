@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "waffle",
+        "test": "export NODE_ENV=test && mocha 'test/**/*.ts'"
+    },
+    "devDependencies": {
+        "@openzeppelin/contracts": "^3.1.0",
+        "chai": "^4.2.0",
+        "ethereum-waffle": "^3.0.1",
+        "mocha": "^8.0.1"
+    }
+}
